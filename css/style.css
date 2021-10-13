@@ -80,7 +80,7 @@ header{
 }
 
 header .logo{
-    color:var(--black);
+    color:red;
     font-size: 2.5rem;
     font-weight: bolder;
 }
@@ -197,13 +197,15 @@ header .icons #menu-bars{
 
 .home .home-slider .slide .image img{
     width: 100%;
+    margin-bottom: 10%;
 }
 
 .home .home-slider .slide .content span{
     color:var(--green);
-    font-size: 2.5rem;
-}
+    font-size: 4rem;
+    font-weight: 700;
 
+}
 .home .home-slider .slide .content h3{
     color:var(--black);
     font-size: 7rem;
@@ -311,6 +313,7 @@ header .icons #menu-bars{
 
 .about .row .image img{ 
     width: 100%;
+    margin-bottom: 10%;
 }
 
 .about .row .content{
@@ -364,6 +367,7 @@ header .icons #menu-bars{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
+    align-items: center;
 }
 
 .menu .box-container .box{
@@ -423,6 +427,7 @@ header .icons #menu-bars{
 .menu .box-container .box .content h3{
     color:var(--black);
     font-size: 2.5rem;
+    text-align: center;
 }
 
 .menu .box-container .box .content p{
@@ -546,6 +551,12 @@ header .icons #menu-bars{
 .footer .box-container .box h3{
     padding:.5rem 0;
     font-size: 2.5rem;
+    color:var(--black);
+}
+.footer .box-container .box h4{
+    padding:.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 300;
     color:var(--black);
 }
 
