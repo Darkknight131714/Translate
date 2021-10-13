@@ -41,7 +41,7 @@ document.querySelector('#close').onclick = () =>{
 }
 
 var swiper = new Swiper(".home-slider", {
-  spaceBetween: 30,
+  spaceBetween: 100,
   centeredSlides: true,
   autoplay: {
     delay: 7500,
@@ -51,7 +51,7 @@ var swiper = new Swiper(".home-slider", {
     el: ".swiper-pagination",
     clickable: true,
   },
-  loop:true,
+  loop:false,
 });
 
 var swiper = new Swiper(".review-slider", {
@@ -83,7 +83,7 @@ function loader(){
 }
 
 function fadeOut(){
-  setInterval(loader, 3000);
+  setInterval(loader, 500);
 }
 
 window.onload = fadeOut;

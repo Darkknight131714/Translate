@@ -6,6 +6,10 @@
     --light-color:#666;
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
 }
+@font-face {
+    font-family: Graphik;
+    src: url("fonts/GraphikLight.otf");
+  }
 
 *{
     font-family: 'Nunito', sans-serif;
